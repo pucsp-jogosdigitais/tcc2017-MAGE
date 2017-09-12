@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Animator))]
 public class PersonagemMove : MonoBehaviour
@@ -13,11 +13,13 @@ public class PersonagemMove : MonoBehaviour
 	[SerializeField] float f_Gravity = 14f;
 	[SerializeField] float f_VerticalVelocity;
 	[Range(1f, 4f)] [SerializeField] float m_GravityMultiplier = 2f;//Slider da velocidade de queda
-																	//[SerializeField] float f_RunCycleLegOffset = 0.2f;//Correção do tempo de animação
+
+	//[SerializeField] float f_RunCycleLegOffset = 0.2f;//Correção do tempo de animação
 	[SerializeField] float f_MoveSpeedMultiplier = 1f;//Velocidade de movimento
 													  //[SerializeField] float f_AnimSpeedMultiplier = 1f;//Velocidade da animação
 													  //[SerializeField] float f_GroundCheckDistance = 0.1f;//Distância do chão
-
+	public Image Hp;
+	public int i = 0;
 	CharacterController m_Controller;
 	Animator m_Animator;
 	const float cf_Half = 0.5f;
@@ -113,4 +115,48 @@ public class PersonagemMove : MonoBehaviour
 		transform.Rotate(0, f_TurnAmount * turnSpeed * Time.deltaTime, 0);
 	}
 	#endregion
+
+	public void TakeDamage(bool m_TakeDamage, bool m_TakeHeal)
+	{
+		switch (i)
+		{
+			case 0:
+				Hp.fillAmount = 1f;
+				break;
+			case 1:
+				Hp.fillAmount = 0.825f;
+				break;
+			case 2:
+				Hp.fillAmount = 0.678f;
+				break;
+			case 3:
+				Hp.fillAmount = 0.5f;
+				break;
+			case 4:
+				Hp.fillAmount = 0.327f;
+				break;
+			case 5:
+				Hp.fillAmount = 0.176f;
+				break;
+			case 6:
+				Hp.fillAmount = 0f;
+				break;
+		}
+
+		if (m_TakeDamage)
+		{
+			if (i < 7)
+			{				
+				i++;
+			}
+		}
+
+		if (m_TakeHeal)
+		{
+			if (i > 0)
+			{
+				i--;
+			}
+		}
+	}
 }

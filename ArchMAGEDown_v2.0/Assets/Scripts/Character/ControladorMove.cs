@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +8,11 @@ public class ControladorMove : MonoBehaviour
 {
 	private PersonagemMove m_Player;
 	private Vector3 m_Move;
-	public bool m_Jump;
+	private Vector3 m_CameraMove;
+	private bool m_Jump;
+	private bool m_TakeDamage;
+	private bool m_TakeHeal;
+
 	// Use this for initialization
 	void Start()
 	{
@@ -18,6 +23,9 @@ public class ControladorMove : MonoBehaviour
 	void Update()
 	{
 		m_Jump = Input.GetButtonDown("Jump");
+		m_TakeDamage = Input.GetButtonDown("Damage");
+		m_TakeHeal = Input.GetButtonDown("Heal");
+		m_Player.TakeDamage(m_TakeDamage, m_TakeHeal);
 	}
 
 	private void FixedUpdate()
