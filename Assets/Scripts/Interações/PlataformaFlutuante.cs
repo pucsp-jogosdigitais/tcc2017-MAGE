@@ -41,11 +41,11 @@ public class PlataformaFlutuante : MonoBehaviour
                 
             }
         }
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown("Trigger2"))
         {
             Subindo = true;
         }
-        if (Input.GetButtonUp("Fire2"))
+        if (Input.GetButtonUp("Trigger2"))
         {
             Subindo = false;
         }

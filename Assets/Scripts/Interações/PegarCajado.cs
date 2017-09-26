@@ -8,8 +8,8 @@ public class PegarCajado : MonoBehaviour
     public Transform Mao, Rotação;
     PlataformaFlutuante plataforma;
     bool Encima;
+    public CharacterManager CharacterM;
     
-
     void Start ()
     {
 
@@ -17,10 +17,15 @@ public class PegarCajado : MonoBehaviour
 	
 	void Update ()
     {
-        if (Input.GetButtonDown("Fire1") && Encima)
+        if (Input.GetButtonDown("Trigger1") && Encima)
         {
             Instantiate(CajadoProtagonista, Mao.transform.position, Rotação.transform.rotation, Mao);
             Destroy(CajadoCaido);
+            
+            CharacterM.Ativos.Add ("StoneState");
+            CharacterM.Ativos.Add ("FlameThrower");
+            CharacterM.Ativos.Add ("MagicMissle");
+            CharacterM.Ativos.Add ("Clone");
         }
     }
 

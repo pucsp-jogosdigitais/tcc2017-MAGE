@@ -1,18 +1,17 @@
 fileFormatVersion: 2
 guid: 33bea59fea3607a498b3e003ac42cdcd
-timeCreated: 1504906488
+timeCreated: 1505845001
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Protagonist
-    100002: //RootNode
-    400000: Protagonist
-    400002: //RootNode
+    100000: //RootNode
+    100002: Protagonist
+    400000: //RootNode
+    400002: Protagonist
     2300000: Protagonist
     3300000: Protagonist
     4300000: Protagonist
-    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -23,14 +22,13 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
-      human bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -40,7 +38,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -64,17 +62,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human: []
-    skeleton:
-    - name: Reprotag4(Clone)
-      parentName: 
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Protagonist
-      parentName: Reprotag4(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -88,7 +76,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 3
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
