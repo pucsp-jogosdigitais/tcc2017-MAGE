@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: d27b4431c6053b54599238dd8c4c1487
+timeCreated: 1507916689
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bloco1x1
+    100002: BlocoD
+    100004: BlocoDL
+    100006: BlocoDR
+    100008: BlocoL
+    100010: BlocoR
+    100012: BlocoRDL
+    100014: BlocoRL
+    100016: BlocoRTL
+    100018: BlocoT
+    100020: BlocoTD
+    100022: BlocoTL
+    100024: BlocoTLD
+    100026: BlocoTR
+    100028: BlocoTRD
+    100030: BordaDown
+    100032: BordaDown 1
+    100034: BordaDown 2
+    100036: BordaDown 3
+    100038: BordaDown 4
+    100040: BordaDown 5
+    100042: BordaDown 6
+    100044: BordaDown 7
+    100046: BordaLeft
+    100048: BordaLeft 1
+    100050: BordaLeft 2
+    100052: BordaLeft 3
+    100054: BordaLeft 4
+    100056: BordaLeft 5
+    100058: BordaLeft 6
+    100060: BordaLeft 7
+    100062: BordaRight
+    100064: BordaRight 1
+    100066: BordaRight 2
+    100068: BordaRight 3
+    100070: BordaRight 4
+    100072: BordaRight 5
+    100074: BordaRight 6
+    100076: BordaRight 7
+    100078: BordaTop
+    100080: BordaTop 1
+    100082: BordaTop 2
+    100084: BordaTop 3
+    100086: BordaTop 4
+    100088: BordaTop 5
+    100090: BordaTop 6
+    100092: BordaTop 7
+    100094: //RootNode
+    100096: Espaco_Vazio
+    100098: Espaco_Vazio 1
+    100100: Espaco_Vazio 10
+    100102: Espaco_Vazio 11
+    100104: Espaco_Vazio 12
+    100106: Espaco_Vazio 13
+    100108: Espaco_Vazio 14
+    100110: Espaco_Vazio 15
+    100112: Espaco_Vazio 2
+    100114: Espaco_Vazio 3
+    100116: Espaco_Vazio 4
+    100118: Espaco_Vazio 5
+    100120: Espaco_Vazio 6
+    100122: Espaco_Vazio 7
+    100124: Espaco_Vazio 8
+    100126: Espaco_Vazio 9
+    100128: Parede_Fundo
+    100130: Quina00
+    100132: Quina00 1
+    100134: Quina00 2
+    100136: Quina00 3
+    100138: Quina01
+    100140: Quina01 1
+    100142: Quina01 2
+    100144: Quina01 3
+    100146: Quina10
+    100148: Quina10 1
+    100150: Quina10 2
+    100152: Quina10 3
+    100154: Quina11
+    100156: Quina11 1
+    100158: Quina11 2
+    100160: Quina11 3
+    400000: Bloco1x1
+    400002: BlocoD
+    400004: BlocoDL
+    400006: BlocoDR
+    400008: BlocoL
+    400010: BlocoR
+    400012: BlocoRDL
+    400014: BlocoRL
+    400016: BlocoRTL
+    400018: BlocoT
+    400020: BlocoTD
+    400022: BlocoTL
+    400024: BlocoTLD
+    400026: BlocoTR
+    400028: BlocoTRD
+    400030: BordaDown
+    400032: BordaDown 1
+    400034: BordaDown 2
+    400036: BordaDown 3
+    400038: BordaDown 4
+    400040: BordaDown 5
+    400042: BordaDown 6
+    400044: BordaDown 7
+    400046: BordaLeft
+    400048: BordaLeft 1
+    400050: BordaLeft 2
+    400052: BordaLeft 3
+    400054: BordaLeft 4
+    400056: BordaLeft 5
+    400058: BordaLeft 6
+    400060: BordaLeft 7
+    400062: BordaRight
+    400064: BordaRight 1
+    400066: BordaRight 2
+    400068: BordaRight 3
+    400070: BordaRight 4
+    400072: BordaRight 5
+    400074: BordaRight 6
+    400076: BordaRight 7
+    400078: BordaTop
+    400080: BordaTop 1
+    400082: BordaTop 2
+    400084: BordaTop 3
+    400086: BordaTop 4
+    400088: BordaTop 5
+    400090: BordaTop 6
+    400092: BordaTop 7
+    400094: //RootNode
+    400096: Espaco_Vazio
+    400098: Espaco_Vazio 1
+    400100: Espaco_Vazio 10
+    400102: Espaco_Vazio 11
+    400104: Espaco_Vazio 12
+    400106: Espaco_Vazio 13
+    400108: Espaco_Vazio 14
+    400110: Espaco_Vazio 15
+    400112: Espaco_Vazio 2
+    400114: Espaco_Vazio 3
+    400116: Espaco_Vazio 4
+    400118: Espaco_Vazio 5
+    400120: Espaco_Vazio 6
+    400122: Espaco_Vazio 7
+    400124: Espaco_Vazio 8
+    400126: Espaco_Vazio 9
+    400128: Parede_Fundo
+    400130: Quina00
+    400132: Quina00 1
+    400134: Quina00 2
+    400136: Quina00 3
+    400138: Quina01
+    400140: Quina01 1
+    400142: Quina01 2
+    400144: Quina01 3
+    400146: Quina10
+    400148: Quina10 1
+    400150: Quina10 2
+    400152: Quina10 3
+    400154: Quina11
+    400156: Quina11 1
+    400158: Quina11 2
+    400160: Quina11 3
+    2300000: BordaDown
+    2300002: BordaDown 1
+    2300004: BordaDown 2
+    2300006: BordaDown 3
+    2300008: BordaDown 4
+    2300010: BordaDown 5
+    2300012: BordaDown 6
+    2300014: BordaDown 7
+    2300016: BordaLeft
+    2300018: BordaLeft 1
+    2300020: BordaLeft 2
+    2300022: BordaLeft 3
+    2300024: BordaLeft 4
+    2300026: BordaLeft 5
+    2300028: BordaLeft 6
+    2300030: BordaLeft 7
+    2300032: BordaRight
+    2300034: BordaRight 1
+    2300036: BordaRight 2
+    2300038: BordaRight 3
+    2300040: BordaRight 4
+    2300042: BordaRight 5
+    2300044: BordaRight 6
+    2300046: BordaRight 7
+    2300048: BordaTop
+    2300050: BordaTop 1
+    2300052: BordaTop 2
+    2300054: BordaTop 3
+    2300056: BordaTop 4
+    2300058: BordaTop 5
+    2300060: BordaTop 6
+    2300062: BordaTop 7
+    2300064: Espaco_Vazio
+    2300066: Espaco_Vazio 1
+    2300068: Espaco_Vazio 10
+    2300070: Espaco_Vazio 11
+    2300072: Espaco_Vazio 12
+    2300074: Espaco_Vazio 13
+    2300076: Espaco_Vazio 14
+    2300078: Espaco_Vazio 15
+    2300080: Espaco_Vazio 2
+    2300082: Espaco_Vazio 3
+    2300084: Espaco_Vazio 4
+    2300086: Espaco_Vazio 5
+    2300088: Espaco_Vazio 6
+    2300090: Espaco_Vazio 7
+    2300092: Espaco_Vazio 8
+    2300094: Espaco_Vazio 9
+    2300096: Parede_Fundo
+    2300098: Quina00
+    2300100: Quina00 1
+    2300102: Quina00 2
+    2300104: Quina00 3
+    2300106: Quina01
+    2300108: Quina01 1
+    2300110: Quina01 2
+    2300112: Quina01 3
+    2300114: Quina10
+    2300116: Quina10 1
+    2300118: Quina10 2
+    2300120: Quina10 3
+    2300122: Quina11
+    2300124: Quina11 1
+    2300126: Quina11 2
+    2300128: Quina11 3
+    3300000: BordaDown
+    3300002: BordaDown 1
+    3300004: BordaDown 2
+    3300006: BordaDown 3
+    3300008: BordaDown 4
+    3300010: BordaDown 5
+    3300012: BordaDown 6
+    3300014: BordaDown 7
+    3300016: BordaLeft
+    3300018: BordaLeft 1
+    3300020: BordaLeft 2
+    3300022: BordaLeft 3
+    3300024: BordaLeft 4
+    3300026: BordaLeft 5
+    3300028: BordaLeft 6
+    3300030: BordaLeft 7
+    3300032: BordaRight
+    3300034: BordaRight 1
+    3300036: BordaRight 2
+    3300038: BordaRight 3
+    3300040: BordaRight 4
+    3300042: BordaRight 5
+    3300044: BordaRight 6
+    3300046: BordaRight 7
+    3300048: BordaTop
+    3300050: BordaTop 1
+    3300052: BordaTop 2
+    3300054: BordaTop 3
+    3300056: BordaTop 4
+    3300058: BordaTop 5
+    3300060: BordaTop 6
+    3300062: BordaTop 7
+    3300064: Espaco_Vazio
+    3300066: Espaco_Vazio 1
+    3300068: Espaco_Vazio 10
+    3300070: Espaco_Vazio 11
+    3300072: Espaco_Vazio 12
+    3300074: Espaco_Vazio 13
+    3300076: Espaco_Vazio 14
+    3300078: Espaco_Vazio 15
+    3300080: Espaco_Vazio 2
+    3300082: Espaco_Vazio 3
+    3300084: Espaco_Vazio 4
+    3300086: Espaco_Vazio 5
+    3300088: Espaco_Vazio 6
+    3300090: Espaco_Vazio 7
+    3300092: Espaco_Vazio 8
+    3300094: Espaco_Vazio 9
+    3300096: Parede_Fundo
+    3300098: Quina00
+    3300100: Quina00 1
+    3300102: Quina00 2
+    3300104: Quina00 3
+    3300106: Quina01
+    3300108: Quina01 1
+    3300110: Quina01 2
+    3300112: Quina01 3
+    3300114: Quina10
+    3300116: Quina10 1
+    3300118: Quina10 2
+    3300120: Quina10 3
+    3300122: Quina11
+    3300124: Quina11 1
+    3300126: Quina11 2
+    3300128: Quina11 3
+    4300000: Espaco_Vazio
+    4300002: Parede_Fundo
+    4300004: Espaco_Vazio
+    4300006: BordaDown
+    4300008: BordaTop
+    4300010: BordaRight
+    4300012: BordaLeft
+    4300014: Quina01
+    4300016: Quina00
+    4300018: Quina10
+    4300020: Quina11
+    4300022: Espaco_Vazio
+    4300024: BordaTop
+    4300026: BordaRight
+    4300028: Quina11
+    4300030: Espaco_Vazio
+    4300032: BordaTop
+    4300034: BordaLeft
+    4300036: Quina01
+    4300038: Espaco_Vazio
+    4300040: BordaDown
+    4300042: Quina10
+    4300044: BordaRight
+    4300046: Espaco_Vazio
+    4300048: BordaLeft
+    4300050: BordaDown
+    4300052: Quina00
+    4300054: Espaco_Vazio
+    4300056: BordaTop
+    4300058: BordaRight
+    4300060: BordaLeft
+    4300062: Quina11
+    4300064: Quina01
+    4300066: Espaco_Vazio
+    4300068: BordaDown
+    4300070: BordaRight
+    4300072: BordaLeft
+    4300074: Quina10
+    4300076: Quina00
+    4300078: Espaco_Vazio
+    4300080: BordaLeft
+    4300082: Quina01
+    4300084: Quina00
+    4300086: BordaTop
+    4300088: BordaDown
+    4300090: Espaco_Vazio
+    4300092: BordaRight
+    4300094: Quina11
+    4300096: Quina10
+    4300098: BordaTop
+    4300100: BordaDown
+    4300102: Espaco_Vazio
+    4300104: BordaTop
+    4300106: BordaDown
+    4300108: Espaco_Vazio
+    4300110: BordaRight
+    4300112: BordaLeft
+    4300114: Espaco_Vazio
+    4300116: BordaTop
+    4300118: Espaco_Vazio
+    4300120: BordaDown
+    4300122: Espaco_Vazio
+    4300124: BordaRight
+    4300126: Espaco_Vazio
+    4300128: BordaLeft
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

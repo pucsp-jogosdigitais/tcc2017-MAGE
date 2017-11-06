@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0cf75e108d2e63e4cbe71c07d4e7af65
+timeCreated: 1502967958
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FFF Tusj
+  fontNames:
+  - FFF Tusj
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

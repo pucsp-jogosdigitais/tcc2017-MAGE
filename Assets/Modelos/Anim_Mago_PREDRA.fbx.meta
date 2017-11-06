@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: b5eb47792a474e745b9a135db26b0cf2
+timeCreated: 1509543378
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bacia_A
+    100004: Bacia_B
+    100006: back
+    100008: Braco_A_Dir
+    100010: Braco_A_Esq
+    100012: Braco_B_Dir
+    100014: Braco_B_Esq
+    100016: Cintura
+    100018: Geometria
+    100020: Indicador_A_Dir
+    100022: Indicador_A_Esq
+    100024: Indicador_B_Dir
+    100026: Indicador_B_Esq
+    100028: Indicador_C_Dir
+    100030: Indicador_C_Esq
+    100032: Indicador_FIM_Dir
+    100034: Indicador_FIM_Esq
+    100036: joint10
+    100038: joint11
+    100040: joint12
+    100042: joint13
+    100044: joint14
+    100046: joint15
+    100048: joint20
+    100050: joint21
+    100052: joint8
+    100054: joint9
+    100056: left
+    100058: Mao_Dir
+    100060: Mao_Esq
+    100062: Meio_A_Dir
+    100064: Meio_A_Esq
+    100066: Meio_B_Dir
+    100068: Meio_B_Esq
+    100070: Meio_C_Dir
+    100072: Meio_C_Esq
+    100074: Meio_FIM_Dir
+    100076: Meio_FIM_Esq
+    100078: Minimo_A_Dir
+    100080: Minimo_A_Esq
+    100082: Minimo_B_Dir
+    100084: Minimo_B_Esq
+    100086: Minimo_C_Dir
+    100088: Minimo_C_Esq
+    100090: Minimo_FIM_Dir
+    100092: Minimo_FIM_Esq
+    100094: Ombro_Dir
+    100096: Ombro_Esq
+    100098: Pe_A_Dir
+    100100: Pe_A_Esq
+    100102: Pe_B_Dir
+    100104: Pe_B_Esq
+    100106: Pe_FIM_Dir
+    100108: Pe_FIM_Esq
+    100110: Perna_A_Dir
+    100112: Perna_A_Esq
+    100114: Perna_B_Dir
+    100116: Perna_B_Esq
+    100118: Polegar_A_Dir
+    100120: Polegar_A_Esq
+    100122: Polegar_B_Dir
+    100124: Polegar_B_Esq
+    100126: Polegar_C_Dir
+    100128: Polegar_C_Esq
+    100130: Polegar_FIM_Dir
+    100132: Polegar_FIM_Esq
+    400000: //RootNode
+    400002: Bacia_A
+    400004: Bacia_B
+    400006: back
+    400008: Braco_A_Dir
+    400010: Braco_A_Esq
+    400012: Braco_B_Dir
+    400014: Braco_B_Esq
+    400016: Cintura
+    400018: Geometria
+    400020: Indicador_A_Dir
+    400022: Indicador_A_Esq
+    400024: Indicador_B_Dir
+    400026: Indicador_B_Esq
+    400028: Indicador_C_Dir
+    400030: Indicador_C_Esq
+    400032: Indicador_FIM_Dir
+    400034: Indicador_FIM_Esq
+    400036: joint10
+    400038: joint11
+    400040: joint12
+    400042: joint13
+    400044: joint14
+    400046: joint15
+    400048: joint20
+    400050: joint21
+    400052: joint8
+    400054: joint9
+    400056: left
+    400058: Mao_Dir
+    400060: Mao_Esq
+    400062: Meio_A_Dir
+    400064: Meio_A_Esq
+    400066: Meio_B_Dir
+    400068: Meio_B_Esq
+    400070: Meio_C_Dir
+    400072: Meio_C_Esq
+    400074: Meio_FIM_Dir
+    400076: Meio_FIM_Esq
+    400078: Minimo_A_Dir
+    400080: Minimo_A_Esq
+    400082: Minimo_B_Dir
+    400084: Minimo_B_Esq
+    400086: Minimo_C_Dir
+    400088: Minimo_C_Esq
+    400090: Minimo_FIM_Dir
+    400092: Minimo_FIM_Esq
+    400094: Ombro_Dir
+    400096: Ombro_Esq
+    400098: Pe_A_Dir
+    400100: Pe_A_Esq
+    400102: Pe_B_Dir
+    400104: Pe_B_Esq
+    400106: Pe_FIM_Dir
+    400108: Pe_FIM_Esq
+    400110: Perna_A_Dir
+    400112: Perna_A_Esq
+    400114: Perna_B_Dir
+    400116: Perna_B_Esq
+    400118: Polegar_A_Dir
+    400120: Polegar_A_Esq
+    400122: Polegar_B_Dir
+    400124: Polegar_B_Esq
+    400126: Polegar_C_Dir
+    400128: Polegar_C_Esq
+    400130: Polegar_FIM_Dir
+    400132: Polegar_FIM_Esq
+    4300000: Geometria
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Geometria
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,8 @@ TagManager:
   - Fire
   - Enemy
   - Fireball
+  - Destrocos
+  - Destrutivel
   layers:
   - Default
   - TransparentFX
@@ -24,12 +26,11 @@ TagManager:
   - Minimap
   - Light
   - HUD
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Clone
+  - Destrutivel
+  - Fireball
+  - Destruido
   - 
   - 
   - 
