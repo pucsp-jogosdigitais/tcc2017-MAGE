@@ -10,7 +10,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: f8d49205b3b0a644195633020367689d, type: 3}
   m_ShaderKeywords: TCP2_SPEC_TOON TCP2_STYLIZED_FRESNEL _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []

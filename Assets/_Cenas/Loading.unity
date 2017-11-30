@@ -238,7 +238,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 648402435}
-  m_Text: Loading...
+  m_Text: Carregando...
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -248,7 +248,7 @@ TextMesh:
   m_FontSize: 200
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 0cf75e108d2e63e4cbe71c07d4e7af65, type: 3}
+  m_Font: {fileID: 12800000, guid: 8262dcdfc8b281d4fb514e0e0ffaa54e, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -265,7 +265,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0cf75e108d2e63e4cbe71c07d4e7af65, type: 3}
+  - {fileID: 2100000, guid: 8262dcdfc8b281d4fb514e0e0ffaa54e, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -513,7 +513,7 @@ TextMesh:
   m_FontSize: 200
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 0cf75e108d2e63e4cbe71c07d4e7af65, type: 3}
+  m_Font: {fileID: 12800000, guid: 8262dcdfc8b281d4fb514e0e0ffaa54e, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -530,7 +530,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0cf75e108d2e63e4cbe71c07d4e7af65, type: 3}
+  - {fileID: 2100000, guid: 8262dcdfc8b281d4fb514e0e0ffaa54e, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -639,6 +639,7 @@ GameObject:
   - component: {fileID: 2068804244}
   - component: {fileID: 2068804243}
   - component: {fileID: 2068804242}
+  - component: {fileID: 2068804247}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -716,6 +717,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2068804247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2068804241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1414bb5084bfc114d9275289434eaf8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2121329015
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: e9297b1ed82f18c448f5574b2aa2df85
+timeCreated: 1508444627
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bloco1x1
+    100002: Bloco1x2
+    100004: BlocoD
+    100006: BlocoD1
+    100008: BlocoDL
+    100010: BlocoDL1
+    100012: BlocoDR
+    100014: BlocoDR1
+    100016: BlocoL
+    100018: BlocoL1
+    100020: BlocoR
+    100022: BlocoR1
+    100024: BlocoRDL
+    100026: BlocoRDL1
+    100028: BlocoRL
+    100030: BlocoRL1
+    100032: BlocoRTL
+    100034: BlocoRTL1
+    100036: BlocoT
+    100038: BlocoT1
+    100040: BlocoTD
+    100042: BlocoTD1
+    100044: BlocoTL
+    100046: BlocoTL1
+    100048: BlocoTLD
+    100050: BlocoTLD1
+    100052: BlocoTR
+    100054: BlocoTR1
+    100056: BlocoTRD
+    100058: BlocoTRD1
+    100060: BordaDown
+    100062: BordaDown 1
+    100064: BordaDown 2
+    100066: BordaDown 3
+    100068: BordaDown 4
+    100070: BordaDown 5
+    100072: BordaDown 6
+    100074: BordaDown 7
+    100076: BordaLeft
+    100078: BordaLeft 1
+    100080: BordaLeft 2
+    100082: BordaLeft 3
+    100084: BordaLeft 4
+    100086: BordaLeft 5
+    100088: BordaLeft 6
+    100090: BordaLeft 7
+    100092: BordaRight
+    100094: BordaRight 1
+    100096: BordaRight 2
+    100098: BordaRight 3
+    100100: BordaRight 4
+    100102: BordaRight 5
+    100104: BordaRight 6
+    100106: BordaRight 7
+    100108: BordaTop
+    100110: BordaTop 1
+    100112: BordaTop 2
+    100114: BordaTop 3
+    100116: BordaTop 4
+    100118: BordaTop 5
+    100120: BordaTop 6
+    100122: BordaTop 7
+    100124: Espaco_Vazio
+    100126: Espaco_Vazio 1
+    100128: Espaco_Vazio 10
+    100130: Espaco_Vazio 11
+    100132: Espaco_Vazio 12
+    100134: Espaco_Vazio 13
+    100136: Espaco_Vazio 14
+    100138: Espaco_Vazio 15
+    100140: Espaco_Vazio 2
+    100142: Espaco_Vazio 3
+    100144: Espaco_Vazio 4
+    100146: Espaco_Vazio 5
+    100148: Espaco_Vazio 6
+    100150: Espaco_Vazio 7
+    100152: Espaco_Vazio 8
+    100154: Espaco_Vazio 9
+    100156: //RootNode
+    100158: Parede_Fundo
+    100160: Quina00
+    100162: Quina00 1
+    100164: Quina00 2
+    100166: Quina00 3
+    100168: Quina01
+    100170: Quina01 1
+    100172: Quina01 2
+    100174: Quina01 3
+    100176: Quina10
+    100178: Quina10 1
+    100180: Quina10 2
+    100182: Quina10 3
+    100184: Quina11
+    100186: Quina11 1
+    100188: Quina11 2
+    100190: Quina11 3
+    100192: transform1
+    100194: transform10
+    100196: transform11
+    100198: transform12
+    100200: transform13
+    100202: transform14
+    100204: transform15
+    100206: transform16
+    100208: transform17
+    100210: transform18
+    100212: transform19
+    100214: transform2
+    100216: transform20
+    100218: transform21
+    100220: transform22
+    100222: transform23
+    100224: transform24
+    100226: transform25
+    100228: transform26
+    100230: transform27
+    100232: transform28
+    100234: transform29
+    100236: transform3
+    100238: transform30
+    100240: transform31
+    100242: transform32
+    100244: transform33
+    100246: transform34
+    100248: transform35
+    100250: transform36
+    100252: transform37
+    100254: transform38
+    100256: transform39
+    100258: transform4
+    100260: transform40
+    100262: transform41
+    100264: transform42
+    100266: transform43
+    100268: transform44
+    100270: transform45
+    100272: transform46
+    100274: transform47
+    100276: transform48
+    100278: transform49
+    100280: transform5
+    100282: transform50
+    100284: transform51
+    100286: transform52
+    100288: transform53
+    100290: transform54
+    100292: transform55
+    100294: transform56
+    100296: transform57
+    100298: transform58
+    100300: transform59
+    100302: transform6
+    100304: transform60
+    100306: transform61
+    100308: transform62
+    100310: transform63
+    100312: transform7
+    100314: transform8
+    100316: transform9
+    400000: Bloco1x1
+    400002: Bloco1x2
+    400004: BlocoD
+    400006: BlocoD1
+    400008: BlocoDL
+    400010: BlocoDL1
+    400012: BlocoDR
+    400014: BlocoDR1
+    400016: BlocoL
+    400018: BlocoL1
+    400020: BlocoR
+    400022: BlocoR1
+    400024: BlocoRDL
+    400026: BlocoRDL1
+    400028: BlocoRL
+    400030: BlocoRL1
+    400032: BlocoRTL
+    400034: BlocoRTL1
+    400036: BlocoT
+    400038: BlocoT1
+    400040: BlocoTD
+    400042: BlocoTD1
+    400044: BlocoTL
+    400046: BlocoTL1
+    400048: BlocoTLD
+    400050: BlocoTLD1
+    400052: BlocoTR
+    400054: BlocoTR1
+    400056: BlocoTRD
+    400058: BlocoTRD1
+    400060: BordaDown
+    400062: BordaDown 1
+    400064: BordaDown 2
+    400066: BordaDown 3
+    400068: BordaDown 4
+    400070: BordaDown 5
+    400072: BordaDown 6
+    400074: BordaDown 7
+    400076: BordaLeft
+    400078: BordaLeft 1
+    400080: BordaLeft 2
+    400082: BordaLeft 3
+    400084: BordaLeft 4
+    400086: BordaLeft 5
+    400088: BordaLeft 6
+    400090: BordaLeft 7
+    400092: BordaRight
+    400094: BordaRight 1
+    400096: BordaRight 2
+    400098: BordaRight 3
+    400100: BordaRight 4
+    400102: BordaRight 5
+    400104: BordaRight 6
+    400106: BordaRight 7
+    400108: BordaTop
+    400110: BordaTop 1
+    400112: BordaTop 2
+    400114: BordaTop 3
+    400116: BordaTop 4
+    400118: BordaTop 5
+    400120: BordaTop 6
+    400122: BordaTop 7
+    400124: Espaco_Vazio
+    400126: Espaco_Vazio 1
+    400128: Espaco_Vazio 10
+    400130: Espaco_Vazio 11
+    400132: Espaco_Vazio 12
+    400134: Espaco_Vazio 13
+    400136: Espaco_Vazio 14
+    400138: Espaco_Vazio 15
+    400140: Espaco_Vazio 2
+    400142: Espaco_Vazio 3
+    400144: Espaco_Vazio 4
+    400146: Espaco_Vazio 5
+    400148: Espaco_Vazio 6
+    400150: Espaco_Vazio 7
+    400152: Espaco_Vazio 8
+    400154: Espaco_Vazio 9
+    400156: //RootNode
+    400158: Parede_Fundo
+    400160: Quina00
+    400162: Quina00 1
+    400164: Quina00 2
+    400166: Quina00 3
+    400168: Quina01
+    400170: Quina01 1
+    400172: Quina01 2
+    400174: Quina01 3
+    400176: Quina10
+    400178: Quina10 1
+    400180: Quina10 2
+    400182: Quina10 3
+    400184: Quina11
+    400186: Quina11 1
+    400188: Quina11 2
+    400190: Quina11 3
+    400192: transform1
+    400194: transform10
+    400196: transform11
+    400198: transform12
+    400200: transform13
+    400202: transform14
+    400204: transform15
+    400206: transform16
+    400208: transform17
+    400210: transform18
+    400212: transform19
+    400214: transform2
+    400216: transform20
+    400218: transform21
+    400220: transform22
+    400222: transform23
+    400224: transform24
+    400226: transform25
+    400228: transform26
+    400230: transform27
+    400232: transform28
+    400234: transform29
+    400236: transform3
+    400238: transform30
+    400240: transform31
+    400242: transform32
+    400244: transform33
+    400246: transform34
+    400248: transform35
+    400250: transform36
+    400252: transform37
+    400254: transform38
+    400256: transform39
+    400258: transform4
+    400260: transform40
+    400262: transform41
+    400264: transform42
+    400266: transform43
+    400268: transform44
+    400270: transform45
+    400272: transform46
+    400274: transform47
+    400276: transform48
+    400278: transform49
+    400280: transform5
+    400282: transform50
+    400284: transform51
+    400286: transform52
+    400288: transform53
+    400290: transform54
+    400292: transform55
+    400294: transform56
+    400296: transform57
+    400298: transform58
+    400300: transform59
+    400302: transform6
+    400304: transform60
+    400306: transform61
+    400308: transform62
+    400310: transform63
+    400312: transform7
+    400314: transform8
+    400316: transform9
+    2300000: Bloco1x2
+    2300002: BlocoD1
+    2300004: BlocoDL1
+    2300006: BlocoDR1
+    2300008: BlocoL1
+    2300010: BlocoR1
+    2300012: BlocoRDL1
+    2300014: BlocoRL1
+    2300016: BlocoRTL1
+    2300018: BlocoT1
+    2300020: BlocoTD1
+    2300022: BlocoTL1
+    2300024: BlocoTLD1
+    2300026: BlocoTR1
+    2300028: BlocoTRD1
+    2300030: Espaco_Vazio
+    2300032: Parede_Fundo
+    3300000: Bloco1x2
+    3300002: BlocoD1
+    3300004: BlocoDL1
+    3300006: BlocoDR1
+    3300008: BlocoL1
+    3300010: BlocoR1
+    3300012: BlocoRDL1
+    3300014: BlocoRL1
+    3300016: BlocoRTL1
+    3300018: BlocoT1
+    3300020: BlocoTD1
+    3300022: BlocoTL1
+    3300024: BlocoTLD1
+    3300026: BlocoTR1
+    3300028: BlocoTRD1
+    3300030: Espaco_Vazio
+    3300032: Parede_Fundo
+    4300000: Espaco_Vazio
+    4300002: Parede_Fundo
+    4300004: Bloco1x2
+    4300006: BlocoTR1
+    4300008: BlocoTL1
+    4300010: BlocoDR1
+    4300012: BlocoDL1
+    4300014: BlocoTRD1
+    4300016: BlocoRDL1
+    4300018: BlocoTLD1
+    4300020: BlocoRTL1
+    4300022: BlocoTD1
+    4300024: BlocoRL1
+    4300026: BlocoT1
+    4300028: BlocoD1
+    4300030: BlocoR1
+    4300032: BlocoL1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

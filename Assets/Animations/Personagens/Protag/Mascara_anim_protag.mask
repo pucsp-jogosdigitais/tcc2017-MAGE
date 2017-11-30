@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mascara_anim_protag
+  m_Mask: 01000000000000000000000001000000010000000000000000000000000000000000000001000000010000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Angry
+    m_Weight: 1
+  - m_Path: coluna_1
+    m_Weight: 1
+  - m_Path: coluna_1/joint3
+    m_Weight: 1
+  - m_Path: coluna_1/joint3/coluna_2
+    m_Weight: 1
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+    m_Weight: 0
+  - m_Path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+    m_Weight: 0
+  - m_Path: coluna_1/joint4
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_dir_1
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_esq_1
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+    m_Weight: 1
+  - m_Path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+      1
+    m_Weight: 1
+  - m_Path: Happy
+    m_Weight: 1
+  - m_Path: left
+    m_Weight: 1
+  - m_Path: Protag_low1
+    m_Weight: 1
+  - m_Path: Protag_low1/Eyes_low
+    m_Weight: 1
+  - m_Path: Sad
+    m_Weight: 1
+  - m_Path: Surprised
+    m_Weight: 1

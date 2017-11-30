@@ -6,11 +6,18 @@ TagManager:
   tags:
   - Chao
   - Cajado
-  - Fire
   - Enemy
   - Fireball
   - Destrocos
   - Destrutivel
+  - Soco
+  - HP
+  - Fogo
+  - DeadLine
+  - TIPS
+  - Boss
+  - CameraBoss
+  - Chute
   layers:
   - Default
   - TransparentFX
@@ -31,8 +38,8 @@ TagManager:
   - Destrutivel
   - Fireball
   - Destruido
-  - 
-  - 
+  - Props
+  - Background
   - 
   - 
   - 

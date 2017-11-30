@@ -8,24 +8,24 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 370ba3fa2f74d524f9a3f08a67bf3fc0
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Cenas/Intro.unity
-    guid: 00000000000000000000000000000000
+    guid: 2cb1a7c93a6e1d7419cc0189c8ab16f1
   - enabled: 1
     path: Assets/_Cenas/MainMenu.unity
     guid: 49a48d51ec68851449bcb1231f8b8732
   - enabled: 1
     path: Assets/_Cenas/Loading.unity
     guid: b754b48aeecb58249ac887af8ed8877a
-  - enabled: 1
-    path: Assets/_Cenas/level3.unity
-    guid: e48e2ee9050d60f4fba5c9c266faf0db
-  - enabled: 0
-    path: Assets/_Cenas/TestesProgram.unity
-    guid: b539dc841be6a3b4a982b2869be14cb7
   - enabled: 0
     path: Assets/_Cenas/Museum.unity
     guid: 7b460e283631f99469f1609b297ce685
   - enabled: 1
     path: Assets/_Cenas/Game Over.unity
     guid: 7b7d6d5eec2fd734ca2446f283b3db1f
+  - enabled: 1
+    path: Assets/_Cenas/THELEVEL.unity
+    guid: c780cf49ea64bd440ba2915cedf4478b
+  - enabled: 1
+    path: Assets/_Cenas/Creditos.unity
+    guid: 738408fd09fe5db4e925b899e6cf6a6d

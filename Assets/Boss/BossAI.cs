@@ -20,7 +20,7 @@ public class BossAI : MonoBehaviour
         {
             targetPlayer = GameObject.FindGameObjectWithTag("Player").transform;
         }
-
+        //pode comentar
         if (!thisPosition)
         {
 
@@ -34,6 +34,7 @@ public class BossAI : MonoBehaviour
                 }
             }
         }
+        //pode comentar
 
         ValorEixoZ = transform.position.z;
 
@@ -41,6 +42,11 @@ public class BossAI : MonoBehaviour
 
     void Update()
     {
+        int evento = receberEvento();
+        tratarEvento(evento);
+        processarEstado();
+
+
         TravaPosicao();
 
         InteragePlayer();
@@ -48,6 +54,10 @@ public class BossAI : MonoBehaviour
 
     }
 
+    int receberEvento()
+    {
+        return 0;
+    }
 
     void TravaPosicao()
     {
@@ -82,9 +92,49 @@ public class BossAI : MonoBehaviour
         }
     }
 
+    int estado = 0;
+
     void setRandom()
     {
         valorAleatorio = Random.Range(0, 50);
+    }
+
+    void tratarEvento(int evt)
+    {
+        if (evt == 0) // nasceu
+        {
+            estado = 0; // idle
+        } else if (evt == 1)
+        {
+            estado = 2; // procurar
+        } else
+        {
+            estado = 3; // atacar
+        }
+    }
+
+    void processarEstado()
+    {
+        switch(estado)
+        {/*
+            case 0:
+                moveRanodmicamente();
+                break;
+
+            case 1:
+                recuar();
+                break;
+            case 2:
+                procurar();
+                break;
+
+            case 3:
+                atacar();
+                break;
+
+            default:
+                moveRanodmicamente();
+        */}
     }
 
 }

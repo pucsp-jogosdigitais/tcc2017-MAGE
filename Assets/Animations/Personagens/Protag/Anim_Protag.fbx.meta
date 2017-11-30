@@ -1,0 +1,2390 @@
+fileFormatVersion: 2
+guid: 69e2a66827e1e294480da6f39c27c0bb
+timeCreated: 1509543377
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Angry
+    100002: //RootNode
+    100004: bacia
+    100006: braco_dir_1
+    100008: braco_dir_2
+    100010: braco_dir_FIM
+    100012: braco_esq_1
+    100014: braco_esq_2
+    100016: braco_esq_FIM
+    100018: cocao
+    100020: coluna_1
+    100022: coluna_2
+    100024: coluna_3
+    100026: coluna_4
+    100028: Eyes_low
+    100030: Happy
+    100032: joint1
+    100034: joint2
+    100036: joint3
+    100038: joint4
+    100040: joint5
+    100042: joint5 1
+    100044: left
+    100046: mao_dir_1
+    100048: mao_dir_2
+    100050: mao_dir_3
+    100052: mao_dir_FIM
+    100054: mao_esq_1
+    100056: mao_esq_2
+    100058: mao_esq_3
+    100060: mao_esq_FIM
+    100062: ombro_dir
+    100064: ombro_esq
+    100066: pe_dir_1
+    100068: pe_dir_FIM
+    100070: pe_esq_1
+    100072: pe_esq_FIM
+    100074: perna_dir_1
+    100076: perna_dir_2
+    100078: perna_dir_3
+    100080: perna_esq_1
+    100082: perna_esq_2
+    100084: perna_esq_3
+    100086: pescoco
+    100088: polegar_dir_1
+    100090: polegar_dir_2
+    100092: polegar_dir_FIM
+    100094: polegar_esq_1
+    100096: polegar_esq_2
+    100098: polegar_esq_FIM
+    100100: Protag_low1
+    100102: Sad
+    100104: Surprised
+    400000: Angry
+    400002: //RootNode
+    400004: bacia
+    400006: braco_dir_1
+    400008: braco_dir_2
+    400010: braco_dir_FIM
+    400012: braco_esq_1
+    400014: braco_esq_2
+    400016: braco_esq_FIM
+    400018: cocao
+    400020: coluna_1
+    400022: coluna_2
+    400024: coluna_3
+    400026: coluna_4
+    400028: Eyes_low
+    400030: Happy
+    400032: joint1
+    400034: joint2
+    400036: joint3
+    400038: joint4
+    400040: joint5
+    400042: joint5 1
+    400044: left
+    400046: mao_dir_1
+    400048: mao_dir_2
+    400050: mao_dir_3
+    400052: mao_dir_FIM
+    400054: mao_esq_1
+    400056: mao_esq_2
+    400058: mao_esq_3
+    400060: mao_esq_FIM
+    400062: ombro_dir
+    400064: ombro_esq
+    400066: pe_dir_1
+    400068: pe_dir_FIM
+    400070: pe_esq_1
+    400072: pe_esq_FIM
+    400074: perna_dir_1
+    400076: perna_dir_2
+    400078: perna_dir_3
+    400080: perna_esq_1
+    400082: perna_esq_2
+    400084: perna_esq_3
+    400086: pescoco
+    400088: polegar_dir_1
+    400090: polegar_dir_2
+    400092: polegar_dir_FIM
+    400094: polegar_esq_1
+    400096: polegar_esq_2
+    400098: polegar_esq_FIM
+    400100: Protag_low1
+    400102: Sad
+    400104: Surprised
+    2300000: Angry
+    2300002: Happy
+    2300004: Sad
+    2300006: Surprised
+    3300000: Angry
+    3300002: Happy
+    3300004: Sad
+    3300006: Surprised
+    4300000: Surprised
+    4300002: Angry
+    4300004: Happy
+    4300006: Sad
+    4300008: Protag_low1
+    4300010: Eyes_low
+    7400000: Take 001
+    7400002: Walk
+    7400004: Idle 01
+    7400006: Idle 02
+    7400008: Idle 03
+    7400010: Impulse
+    7400012: Air
+    7400014: Land
+    7400016: Pulo Duplo
+    7400018: Missle
+    7400020: Clone
+    7400022: Inicio_Chamas
+    7400024: Chamas_Idle
+    7400026: Inicio_Pedra
+    7400028: Pedra_Indle
+    7400030: Morreu
+    9500000: //RootNode
+    13700000: Eyes_low
+    13700002: Protag_low1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.50108695
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle 01
+      takeName: Take 001
+      firstFrame: 71
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle 02
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle 03
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 339
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Impulse
+      takeName: Take 001
+      firstFrame: 341
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Air
+      takeName: Take 001
+      firstFrame: 380
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Land
+      takeName: Take 001
+      firstFrame: 410
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Pulo Duplo
+      takeName: Take 001
+      firstFrame: 461
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Missle
+      takeName: Take 001
+      firstFrame: 501
+      lastFrame: 599
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Clone
+      takeName: Take 001
+      firstFrame: 601
+      lastFrame: 615
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Inicio_Chamas
+      takeName: Take 001
+      firstFrame: 621
+      lastFrame: 639
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Chamas_Idle
+      takeName: Take 001
+      firstFrame: 640
+      lastFrame: 650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Inicio_Pedra
+      takeName: Take 001
+      firstFrame: 661
+      lastFrame: 670
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Pedra_Indle
+      takeName: Take 001
+      firstFrame: 670
+      lastFrame: 680
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Morreu
+      takeName: Take 001
+      firstFrame: 691
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Angry
+        weight: 1
+      - path: coluna_1
+        weight: 1
+      - path: coluna_1/joint3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/coluna_4/pescoco/cocao/joint1/joint2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/mao_dir_2/mao_dir_3/mao_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_dir/braco_dir_1/braco_dir_2/braco_dir_FIM/mao_dir_1/polegar_dir_1/polegar_dir_2/polegar_dir_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/mao_esq_2/mao_esq_3/mao_esq_FIM
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2
+        weight: 1
+      - path: coluna_1/joint3/coluna_2/coluna_3/ombro_esq/braco_esq_1/braco_esq_2/braco_esq_FIM/mao_esq_1/polegar_esq_1/polegar_esq_2/polegar_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4
+        weight: 1
+      - path: coluna_1/joint4/bacia
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_dir_1/perna_dir_2/perna_dir_3/pe_dir_1/pe_dir_FIM/joint5
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM
+        weight: 1
+      - path: coluna_1/joint4/bacia/perna_esq_1/perna_esq_2/perna_esq_3/pe_esq_1/pe_esq_FIM/joint5
+          1
+        weight: 1
+      - path: Happy
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Protag_low1
+        weight: 1
+      - path: Protag_low1/Eyes_low
+        weight: 1
+      - path: Sad
+        weight: 1
+      - path: Surprised
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

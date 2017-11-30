@@ -1,0 +1,604 @@
+fileFormatVersion: 2
+guid: 9a05d50d5d8722f4fa9b83ce6844131f
+timeCreated: 1510243456
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bacia
+    100004: braco_dir
+    100006: braco_esq
+    100008: cabeca
+    100010: clavicula_dir
+    100012: clavicula_esq
+    100014: coluna_1
+    100016: coluna_2
+    100018: mao_dir
+    100020: mao_esq
+    100022: ombro_dir
+    100024: ombro_esq
+    100026: perna_dir_1
+    100028: perna_dir_2
+    100030: perna_dir_FIM
+    100032: perna_esq_1
+    100034: perna_esq_2
+    100036: perna_esq_FIM
+    100038: pescoco
+    100040: root
+    100042: Torso_low1
+    400000: //RootNode
+    400002: bacia
+    400004: braco_dir
+    400006: braco_esq
+    400008: cabeca
+    400010: clavicula_dir
+    400012: clavicula_esq
+    400014: coluna_1
+    400016: coluna_2
+    400018: mao_dir
+    400020: mao_esq
+    400022: ombro_dir
+    400024: ombro_esq
+    400026: perna_dir_1
+    400028: perna_dir_2
+    400030: perna_dir_FIM
+    400032: perna_esq_1
+    400034: perna_esq_2
+    400036: perna_esq_FIM
+    400038: pescoco
+    400040: root
+    400042: Torso_low1
+    4300000: Torso_low1
+    7400000: Idle2_Golem
+    7400002: Idle_Golem
+    7400004: Walk_Golem
+    7400006: Run_Golem
+    7400008: Hit
+    7400010: Ataque_Golem
+    9500000: //RootNode
+    13700000: Torso_low1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_Golem
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/bacia
+        weight: 1
+      - path: root/bacia/perna_dir_1
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2/perna_dir_FIM
+        weight: 1
+      - path: root/bacia/perna_esq_1
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2/perna_esq_FIM
+        weight: 1
+      - path: root/coluna_1
+        weight: 1
+      - path: root/coluna_1/coluna_2
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir/mao_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq/mao_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco/cabeca
+        weight: 1
+      - path: Torso_low1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2_Golem
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/bacia
+        weight: 1
+      - path: root/bacia/perna_dir_1
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2/perna_dir_FIM
+        weight: 1
+      - path: root/bacia/perna_esq_1
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2/perna_esq_FIM
+        weight: 1
+      - path: root/coluna_1
+        weight: 1
+      - path: root/coluna_1/coluna_2
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir/mao_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq/mao_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco/cabeca
+        weight: 1
+      - path: Torso_low1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Golem
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.105820216
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.64550257
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/bacia
+        weight: 1
+      - path: root/bacia/perna_dir_1
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2/perna_dir_FIM
+        weight: 1
+      - path: root/bacia/perna_esq_1
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2/perna_esq_FIM
+        weight: 1
+      - path: root/coluna_1
+        weight: 1
+      - path: root/coluna_1/coluna_2
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir/mao_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq/mao_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco/cabeca
+        weight: 1
+      - path: Torso_low1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Run_Golem
+      takeName: Take 001
+      firstFrame: 161
+      lastFrame: 189
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.08730167
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.61640215
+        functionName: Step
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/bacia
+        weight: 1
+      - path: root/bacia/perna_dir_1
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2/perna_dir_FIM
+        weight: 1
+      - path: root/bacia/perna_esq_1
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2/perna_esq_FIM
+        weight: 1
+      - path: root/coluna_1
+        weight: 1
+      - path: root/coluna_1/coluna_2
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir/mao_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq/mao_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco/cabeca
+        weight: 1
+      - path: Torso_low1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 281
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/bacia
+        weight: 1
+      - path: root/bacia/perna_dir_1
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2/perna_dir_FIM
+        weight: 1
+      - path: root/bacia/perna_esq_1
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2/perna_esq_FIM
+        weight: 1
+      - path: root/coluna_1
+        weight: 1
+      - path: root/coluna_1/coluna_2
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir/mao_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq/mao_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco/cabeca
+        weight: 1
+      - path: Torso_low1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ataque_Golem
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.363426
+        functionName: SomAtaqueGolem
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.63888896
+        functionName: SomAtaqueGolem
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/bacia
+        weight: 1
+      - path: root/bacia/perna_dir_1
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2
+        weight: 1
+      - path: root/bacia/perna_dir_1/perna_dir_2/perna_dir_FIM
+        weight: 1
+      - path: root/bacia/perna_esq_1
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2
+        weight: 1
+      - path: root/bacia/perna_esq_1/perna_esq_2/perna_esq_FIM
+        weight: 1
+      - path: root/coluna_1
+        weight: 1
+      - path: root/coluna_1/coluna_2
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_dir/ombro_dir/braco_dir/mao_dir
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/clavicula_esq/ombro_esq/braco_esq/mao_esq
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco
+        weight: 1
+      - path: root/coluna_1/coluna_2/pescoco/cabeca
+        weight: 1
+      - path: Torso_low1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

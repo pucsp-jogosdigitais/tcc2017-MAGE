@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dee8160a4e9a5c743a7b8a2df6b1473e
+timeCreated: 1511359321
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GOING MERRY
+  fontNames:
+  - GOING MERRY
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 506d007ecbc5dfb4ca77def3f52b5a2a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

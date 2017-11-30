@@ -11,7 +11,7 @@ Material:
   m_ShaderKeywords: TCP2_BUMP TCP2_RAMPTEXT TCP2_RIMO TCP2_SPEC_TOON TCP2_STYLIZED_FRESNEL
     _EMISSION _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []

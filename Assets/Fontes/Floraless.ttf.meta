@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 449db8c27d4016d44bdb2c253ea5b68b
+timeCreated: 1511887793
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Floraless
+  fontNames:
+  - Floraless
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,7 +10,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 0fc6fe3cbeb58fb46822b6e42cbede4c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -65,13 +65,13 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DepthAlpha: 0.5
-    - _DepthDistance: 0.22
+    - _DepthDistance: 0.05
     - _DepthMinAlpha: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendTCP2: 10
     - _FoamSmooth: 0.229
-    - _FoamSpread: 0.33
+    - _FoamSpread: 0.11
     - _FoamStrength: 0.921
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -85,8 +85,8 @@ Material:
     - _RampThreshold: 0.187
     - _ReflRoughness: 0
     - _ReflStrength: 0.113
-    - _RimMax: 1
-    - _RimMin: 0.778
+    - _RimMax: 0.447
+    - _RimMin: 0.197
     - _Shininess: 0.51
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
