@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OjetoEmitido : MonoBehaviour
 {
+    //Script resposável pelo comportamento da bola de pedra
     public int Cooldown = 3;
     public AudioSource m_audioSource;
 
@@ -11,12 +12,6 @@ public class OjetoEmitido : MonoBehaviour
 	{
         m_audioSource.Play();
         StartCoroutine(TimerCount(Cooldown));
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
 	}
 
 	private IEnumerator TimerCount(int Cooldown)

@@ -1,14 +1,15 @@
-﻿ using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 
-public class Boss_Lucas : MonoBehaviour {
+public class Boss_Lucas : MonoBehaviour
+{
 
-	public Transform player;
+    public Transform player;
     Animator anim;
-    [SerializeField] private AudioClip[] m_FootstepSounds;
+    [SerializeField] private AudioClip m_FootstepSound;
     private AudioSource m_AudioSource;
     float distance;
     AnimatorStateInfo clip;
@@ -17,7 +18,6 @@ public class Boss_Lucas : MonoBehaviour {
     private float segundos = 3f;
     public GameObject pe;
     public Animator cameraAnim;
-    public AudioClip som_Morte;
     //public bool fail;
 
     // Use this for initialization
@@ -26,19 +26,18 @@ public class Boss_Lucas : MonoBehaviour {
         anim = GetComponent<Animator>();
         m_AudioSource = GetComponent<AudioSource>();
         pe.SetActive(false);
-        
     }
 
     private void Step()
     {
-        AudioClip clip = GetRandomClip();
-        m_AudioSource.PlayOneShot(clip);
+        //AudioClip clip = GetRandomClip();
+        m_AudioSource.PlayOneShot(m_FootstepSound);
     }
 
-    private AudioClip GetRandomClip()
-    {
-        return m_FootstepSounds[UnityEngine.Random.Range(0, m_FootstepSounds.Length)];
-    }
+    //private AudioClip GetRandomClip()
+    //{
+    //    return m_FootstepSounds[UnityEngine.Random.Range(0, m_FootstepSounds.Length)];
+    //}
 
     void Update()
     {
@@ -56,7 +55,7 @@ public class Boss_Lucas : MonoBehaviour {
         clip = anim.GetCurrentAnimatorStateInfo(0);
         RotationCharacter();
 
-        if (distance > 50)
+        if (distance > 60)
         {
             anim.SetFloat("Speed", 0);
             pe.SetActive(false);
@@ -80,9 +79,9 @@ public class Boss_Lucas : MonoBehaviour {
                 anim.SetBool("Kick_Boss", false);
                 anim.SetBool("Ground_Boss", false);
                 anim.SetBool("Run_Boss", true);
-               
+
             }
-            else if(distance>8 && distance<11)
+            else if (distance > 8 && distance < 11)
             {
                 if (!clip.IsName("Ataque1") && !clip.IsName("Ataque2"))
                 {
@@ -120,12 +119,11 @@ public class Boss_Lucas : MonoBehaviour {
                 }
                 else
                 {
-                    anim.SetBool("Kick_Boss", false);
                     anim.SetBool("Ground_Boss", false);
                     anim.SetFloat("Speed", 0);
 
                 }
-                
+
             }
         }
     }

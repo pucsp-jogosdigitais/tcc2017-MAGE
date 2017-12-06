@@ -4,28 +4,17 @@ using UnityEngine;
 
 public class cameraBoss : MonoBehaviour {
 
-    Animator animCamera;
+    public Animator animCamera;
     public AudioClip som_HitGround;
-    private AudioSource m_AudioSource;
-	// Use this for initialization
-	void Start () {
-        animCamera = GetComponent<Animator>();
-        m_AudioSource = GetComponent<AudioSource>();
-	}
+    public AudioSource m_AudioSource;
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Soco"))
+        if (other.gameObject.tag.Equals("Soco"))
         {
-            animCamera.SetBool("Ataque",true);
+            Debug.Log("Colidiu");
+            animCamera.Play("CameraBoss");
             m_AudioSource.PlayOneShot(som_HitGround);
-
         }
-        else
-            animCamera.SetBool("Ataque", false);
     }
 }

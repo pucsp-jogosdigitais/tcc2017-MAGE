@@ -132,7 +132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4104844434778056
 Transform:
   m_ObjectHideFlags: 1
@@ -140,8 +140,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1693698581180890}
   m_LocalRotation: {x: 0.103798725, y: 0.1181975, z: -0.096072145, w: 0.9828659}
-  m_LocalPosition: {x: 167.5, y: -73.1, z: 136}
-  m_LocalScale: {x: 2, y: 1.9999999, z: 2.0000002}
+  m_LocalPosition: {x: 432.42, y: -17.23, z: 90.87}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4307856724237412}
   - {fileID: 4109655107199346}
@@ -411,7 +411,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.9339755, g: 0.31617647, b: 1, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 0
   m_Range: 13.74
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -471,7 +471,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InManager: {fileID: 0}
   PaSwitch: {fileID: 0}
+  menu: {fileID: 0}
   press_e: {fileID: 1757314435020038}
+  LM: {fileID: 0}
   bossAlert: 0
   Anim: {fileID: 95589623197307372}
 --- !u!114 &114962682835561222
@@ -619,7 +621,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -185792629
+  randomSeed: -1520673286
   InitialModule:
     serializedVersion: 3
     enabled: 1

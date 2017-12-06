@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Clone : MonoBehaviour
 {
+    //Script responsável por fazer o clone sumir
 	public Animator m_Animator;
 
 	void Start()

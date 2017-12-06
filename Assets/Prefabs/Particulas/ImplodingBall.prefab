@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4274924320934276}
   - component: {fileID: 108871769390730870}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Beam Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 4901412673926986}
   - component: {fileID: 198913684205727896}
   - component: {fileID: 199318636871403830}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: ImplodingBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 4333739193128826}
   - component: {fileID: 198295144761991764}
   - component: {fileID: 199957172744035248}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: ElectricBeam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 4113949096750780}
   - component: {fileID: 198331629238976960}
   - component: {fileID: 199784621139696208}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9435,7 +9435,7 @@ ParticleSystemRenderer:
   m_LengthScale: 2
   m_SortingFudge: 0
   m_NormalDirection: 1
-  m_RenderAlignment: 0
+  m_RenderAlignment: 1
   m_Pivot: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
@@ -9537,7 +9537,7 @@ ParticleSystemRenderer:
   m_LengthScale: 2
   m_SortingFudge: 0
   m_NormalDirection: 1
-  m_RenderAlignment: 0
+  m_RenderAlignment: 1
   m_Pivot: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304

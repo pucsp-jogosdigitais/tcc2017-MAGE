@@ -24,29 +24,32 @@ public class InputManager : MonoBehaviour
 
     void Update()
     {
+        //Condicional para enviar o valor literal da direção do player
         if (m_Horizontal > 0)
             right = true;
         else if (m_Horizontal < 0)
             right = false;
 
 
-        m_Player.Move(m_Jump, m_Horizontal);
-        m_Player.RotationCharacter(right);
-        // p_Switch.PauseEnable(m_Pause);
-        inGameMenu.Pause(m_Pause);
+        m_Player.Move(m_Jump, m_Horizontal); //Envia as informações de movimento para o script responável pelo player
+        m_Player.RotationCharacter(right); //Envia as informações de doratção para o script responsável pelo player
+        inGameMenu.Pause(m_Pause); //Pausa o jogo
 
 
 
-        m_Horizontal = Input.GetAxis("Horizontal");
-        m_Jump = Input.GetButtonDown("Jump");
-        m_Get_Objects = Input.GetButtonDown("Get");
-        m_Interact = Input.GetButtonDown("Interact");
-        m_Pause = Input.GetButtonDown("Pause");
+        m_Horizontal = Input.GetAxis("Horizontal"); //Input de movimentação horizontal
+        m_Jump = Input.GetButtonDown("Jump"); //Input de movimentação vertical (pulo)
+        m_Get_Objects = Input.GetButtonDown("Get"); //Input para pegar objetos
+        m_Interact = Input.GetButtonDown("Interact"); //Input de interação com o cenário
+        m_Pause = Input.GetButtonDown("Pause"); //Input para pausar o jogo
 
+        #region Input dos triggers
         m_Button1 = Input.GetButtonDown("Button1");
         m_Button2 = Input.GetButtonDown("Button2");
         m_Button3 = Input.GetButtonDown("Button3");
         m_Button4 = Input.GetButtonDown("Button4");
+        #endregion
+        #region Trigger das habilidades
         if (m_Button1)
         {
             i_buttonTriggered = 0;
@@ -67,8 +70,7 @@ public class InputManager : MonoBehaviour
         {
             i_buttonTriggered = -1;
         }
-
         m_Player.ButtonSelect(i_buttonTriggered);
-
+        #endregion
     }
 }

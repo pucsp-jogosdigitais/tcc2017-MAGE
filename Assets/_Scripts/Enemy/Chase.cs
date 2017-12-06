@@ -14,6 +14,8 @@ public class Chase : MonoBehaviour
     private AudioSource m_AudioSource;
     float distance;
     public Image HP;
+    public float _MyTimeScale;
+
 
     // Use this for initialization
     void Start()
@@ -53,7 +55,7 @@ public class Chase : MonoBehaviour
             clip = anim.GetCurrentAnimatorStateInfo(0);
 
 
-            if (distance > 15)
+            if (distance > 18)
             {
                 anim.SetFloat("Speed", 0);
             }
@@ -62,7 +64,7 @@ public class Chase : MonoBehaviour
                 if (distance > 3)
                 {
                     if (!clip.IsName("Attack"))
-                        transform.Translate(0, 0, 0.15f);
+                        transform.Translate(0, 0, 0.15f * Time.deltaTime * _MyTimeScale);
                     else
                     {
                         transform.Translate(0, 0, 0);

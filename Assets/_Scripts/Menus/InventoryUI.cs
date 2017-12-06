@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InventoryUI : MonoBehaviour
 {
+    //Script responsável por gerenciar as habilidades coletadas pelo jogador (Não implementado)
     public Transform skillsParent;
 
     Inventory inventory;

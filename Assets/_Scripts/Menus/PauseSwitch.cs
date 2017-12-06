@@ -15,6 +15,17 @@ public class PauseSwitch : MonoBehaviour
         //overAnimator.SetTrigger("FadeOutFast");
     }
 
+    private void Start()
+    {
+        if(MainMenu.Instance != null)
+        Invoke("ChamaFadeIn", 1.5f);
+    }
+
+    private void ChamaFadeIn()
+    {
+        MainMenu.Instance.FadeIn();
+    }
+
     public void PauseEnable(bool Pause)
 	{
 		if (Pause)
@@ -133,6 +144,11 @@ public class PauseSwitch : MonoBehaviour
         {
             Tiles[5].SetActive(false);
             Tiles[6].SetActive(true);
+        }
+        else if (Tiles[6].active)
+        {
+            Tiles[6].SetActive(false);
+            Tiles[7].SetActive(true);
         }
     }
 

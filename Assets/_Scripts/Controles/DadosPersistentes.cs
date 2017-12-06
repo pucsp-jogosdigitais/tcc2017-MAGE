@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class DadosPersistentes
 {
-    public static string NextLevel = "";
-	public static float x = -44;
-	public static float y = -3.15f;
-	public static float z = -4;
-	public static int cajado = 0;
-    //caso nao puder usar vector3 no playerPrefs, apagar esta linha
-    public static Vector3 posicaoPlayerSalva = new Vector3(-21, 0, -4);
+    //Script responsável pela troca de algumas informações importantes entre as cenas
+    public static string NextLevel = ""; //Cena a ser carregada
+	//public static float x = -44;
+	//public static float y = -3.15f;
+	//public static float z = -4;
+
+    //Posições do player
+    public static float x = -44;
+    public static float y = 0;
+    public static float z = 0;
+
+    public static int cajado = 0; //Se está com o cajado ou não
+    public static bool Reload = false; //Se está carregando o jogo ou começando um novo
 }

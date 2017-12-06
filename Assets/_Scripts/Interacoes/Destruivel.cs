@@ -34,31 +34,16 @@ public class Destruivel : MonoBehaviour
         Destroy(caixa);
     }
 
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    if (gameObject.name == "barril especial(Clone)")
-    //    {
-    //        Instantiate(destroyedVersion, transform.position, transform.rotation);
-    //        gameObject.SetActive(false);
-    //    }
-
-    //    if (collision.gameObject.CompareTag("Fireball"))
-    //    {
-    //        Instantiate(destroyedVersion, transform.position, transform.rotation);
-    //        Destroy(gameObject);
-    //    }
-    //}
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Fireball"))
         {
-            rnd = Random.Range(1, 2);
-            if (rnd == 1)
+            rnd = Random.Range(1, 15);
+            if (rnd > 10)
             {
                 Instantiate(destroyedVersion, gameObject.transform.position, gameObject.transform.rotation);
-                Instantiate(Health, new Vector3(transform.position.x,transform.position.y + 1, transform.position.z + 1f), transform.rotation);
-                
+                Instantiate(Health, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z + 1f), transform.rotation);
+
                 Caixa_Sound();
                 Destroy(other.gameObject);
                 Destroy(gameObject);

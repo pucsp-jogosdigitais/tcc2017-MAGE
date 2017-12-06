@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EmissorPedra : MonoBehaviour
 {
-
+    //Script responsável pelo funcionamento da armadilha das pedras que caem
     public GameObject boulder;
     public float rateTime = 4;
     void Start()

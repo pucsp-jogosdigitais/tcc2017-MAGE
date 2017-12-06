@@ -6,35 +6,35 @@ using UnityEngine.UI;
 
 public class SkillCharacter : MonoBehaviour
 {
-    public GameObject MissilePrefab, FlamePrefab, ClonePrefab, Player;
-    GameObject[] Golem;
-    Chase[] chases;
-    public CharacterManager CharacterM;
-    public InputManager InputM;
-    private float Duration;
-    private float CooldownPedra;
-    private float CooldownMissil;
-    private float CooldownFogo;
-    private float CooldownClone;
-    public Transform pointWeapon;
-    [SerializeField] float MissileSpeed;
-    public Material MatProtag;
-    public AudioSource SomPedra, SomClone, SomMagicMissile, SomFogo;
-    public bool inCooldown;
-    private bool cooldownPedra_bool = false;
-    private bool cooldownMissil_bool = false;
-    private bool cooldownFogo_bool = false;
-    private bool cooldownClone_bool = false;
-    public Image cdPedra;
-    public Image cdMissil;
-    public Image cdFogo;
-    public Image cdClone;
+    public GameObject MissilePrefab, FlamePrefab, ClonePrefab, Player; //Prefab das habilidades
+    GameObject[] Golem; //Referência dos golens
+    Chase[] chases; //Referencia dos Scripts contidos nos golens
+    public CharacterManager CharacterM; //Script referente ao jogador
+    public InputManager InputM; //Script referente aos inputs em geral
+    private float Duration; //Tempo de animação
+    private float CooldownPedra; //Cooldown
+    private float CooldownMissil; //Cooldown
+    private float CooldownFogo; //Cooldown
+    private float CooldownClone; //Cooldown
+    public Transform pointWeapon; //Referência da posição de spawn das habilidades na ponta do cajado
+    [SerializeField] float MissileSpeed; //Velocidade de deslocamento do míssile mágico
+    public Material MatProtag; //Material do modelo do jogador
+    public AudioSource SomPedra, SomClone, SomMagicMissile, SomFogo; //Sons das habilidades
+    public bool inCooldown; //Verifica se está soltando uma habilidade
+    private bool cooldownPedra_bool = false; //Verifica se pode soltar a habilidade
+    private bool cooldownMissil_bool = false; //Verifica se pode soltar a habilidade
+    private bool cooldownFogo_bool = false; //Verifica se pode soltar a habilidade
+    private bool cooldownClone_bool = false; //Verifica se pode soltar a habilidade
+    public Image cdPedra; //Imagem da habilidade
+    public Image cdMissil; //Imagem da habilidade
+    public Image cdFogo; //Imagem da habilidade
+    public Image cdClone; //Imagem da habilidade
+    public PlayerAnimation setAnim; //Script referente a todas as animações do jogador
 
 
-    // Use this for initialization
     void Start()
     {
-        Golem = GameObject.FindGameObjectsWithTag("Enemy");
+        Golem = GameObject.FindGameObjectsWithTag("Enemy"); //Procura todos os golens na cena
         MatProtag.color = Color.white;
     }
 
@@ -46,13 +46,14 @@ public class SkillCharacter : MonoBehaviour
         TempoClone();
     }
 
-    public void StoneState()
+    public void StoneState() //Ativa a havilidade de virar pedra
     {
         cooldownPedra_bool = true;
         Duration = 5;
         CooldownPedra = 10;
         if (!inCooldown && cdPedra.fillAmount == 0)
         {
+            setAnim.SetSkill("StoneState");
             SomPedra.Play();
             CharacterM.StoneState = true;
             MatProtag.color = new Color(0, 0, 0, 1);
@@ -64,13 +65,14 @@ public class SkillCharacter : MonoBehaviour
 
     }
 
-    public void MagicMissile(Quaternion PersonRotation)
+    public void MagicMissile(Quaternion PersonRotation) //Ativa a havilidade do míssil mágico
     {
         cooldownMissil_bool = true;
         Duration = 1.5f;
-        CooldownMissil = 3f;
+        CooldownMissil = 2f;
         if (!inCooldown && cdMissil.fillAmount == 0)
         {
+            setAnim.SetSkill("MagicMissle");
             CharacterM.travar = true;
             StartCoroutine(Missle(Duration, PersonRotation));
             inCooldown = true;
@@ -80,13 +82,14 @@ public class SkillCharacter : MonoBehaviour
 
     }
 
-    public void FlameThrower(Quaternion PersonRotation)
+    public void FlameThrower(Quaternion PersonRotation) //Ativa a havilidade do lança chamas
     {
         cooldownFogo_bool = true;
         Duration = 4.8f;
-        CooldownFogo = 20f;
+        CooldownFogo = 27f;
         if (!inCooldown && cdFogo.fillAmount == 0)
         {
+            setAnim.SetSkill("FlameThrower");
             CharacterM.travar = true;
             StartCoroutine(Flame(Duration, PersonRotation));
             inCooldown = true;
@@ -96,13 +99,14 @@ public class SkillCharacter : MonoBehaviour
 
     }
 
-    public void Clone(Quaternion PersonRotation)
+    public void Clone(Quaternion PersonRotation) //Ativa a havilidade do clone
     {
         cooldownClone_bool = true;
         Duration = 0.7f;
-        CooldownClone = 30f;
+        CooldownClone = 25f;
         if (!inCooldown && cdClone.fillAmount == 0)
         {
+            setAnim.SetSkill("Clone");
             StartCoroutine(Spawn(Duration, PersonRotation));
             inCooldown = true;
         }
@@ -111,7 +115,7 @@ public class SkillCharacter : MonoBehaviour
     }
 
 
-    private IEnumerator TimerCount(float Cooldown)
+    private IEnumerator TimerCount(float Cooldown) //Reseta o jogador depois de rodar animação de qualquer habilidade
     {
         yield return new WaitForSeconds(Cooldown);
         CharacterM.travar = false;
@@ -120,14 +124,7 @@ public class SkillCharacter : MonoBehaviour
         inCooldown = false;
     }
 
-
-
-
-
-
-
-
-    private void TempoPedra()
+    private void TempoPedra() //Cooldown de virar pedra
     {
         if (cooldownPedra_bool)
         {
@@ -141,7 +138,7 @@ public class SkillCharacter : MonoBehaviour
         }
     }
 
-    private void TempoMissil()
+    private void TempoMissil() //Cooldown do míssil mágico
     {
         if (cooldownMissil_bool)
         {
@@ -155,7 +152,7 @@ public class SkillCharacter : MonoBehaviour
         }
     }
 
-    private void TempoFogo()
+    private void TempoFogo() //Cooldown do lança chamas
     {
         if (cooldownFogo_bool)
         {
@@ -169,7 +166,7 @@ public class SkillCharacter : MonoBehaviour
         }
     }
 
-    private void TempoClone()
+    private void TempoClone() //Cooldown de duração do clone
     {
         if (cooldownClone_bool)
         {
@@ -183,15 +180,7 @@ public class SkillCharacter : MonoBehaviour
         }
     }
 
-
-
-
-
-
-
-
-
-    private IEnumerator Missle(float Cooldown, Quaternion rotation)
+    private IEnumerator Missle(float Cooldown, Quaternion rotation) //Sincroniza a habilidade com o tempo da animação
     {
         yield return new WaitForSeconds(0.6f);
         GameObject Missle = Instantiate(MissilePrefab, pointWeapon.position, rotation);
@@ -209,7 +198,7 @@ public class SkillCharacter : MonoBehaviour
         StartCoroutine(TimerCount(Cooldown));
     }
 
-    private IEnumerator Flame(float Cooldown, Quaternion rotation)
+    private IEnumerator Flame(float Cooldown, Quaternion rotation) //Sincroniza a habilidade com o tempo da animação
     {
         yield return new WaitForSeconds(0.6f);
         GameObject Flame = Instantiate(FlamePrefab, pointWeapon.position, rotation, pointWeapon);
@@ -218,7 +207,7 @@ public class SkillCharacter : MonoBehaviour
         
     }
 
-    private IEnumerator Spawn(float Cooldown, Quaternion rotation)
+    private IEnumerator Spawn(float Cooldown, Quaternion rotation) //Sincroniza a habilidade com o tempo da animação
     {
         yield return new WaitForSeconds(1f);
         GameObject clone  = Instantiate(ClonePrefab, pointWeapon.position, rotation);
@@ -238,7 +227,7 @@ public class SkillCharacter : MonoBehaviour
         StartCoroutine(CloneDuration());
     }
 
-    IEnumerator CloneDuration()
+    IEnumerator CloneDuration() //Faz o clone chamar a atenção dos golens
     {
         yield return new WaitForSeconds(7);
 

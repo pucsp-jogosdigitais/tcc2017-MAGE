@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadingManager : MonoBehaviour
 {
+    //Script responsável por carregar a próxima cena
     public TextMesh percentual;
     float percentualNum=0;
     AsyncOperation aop;

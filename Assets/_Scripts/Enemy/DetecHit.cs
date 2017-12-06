@@ -13,11 +13,13 @@ public class DetecHit : MonoBehaviour
     Animator anim;
     public string opponent;
     public string opponent1;
+    public string opponent2;
     public GameObject mao;
     public Collider[] coliders;
     [SerializeField] private AudioClip m_SomAtaque;
     private AudioSource m_AudioSource;
     [SerializeField] private AudioClip m_SomHit;
+    [SerializeField] private AudioClip m_morte_Boss;
     PauseSwitch ps;
     private float segundos = 0.2f;
     private bool PegandoFogo = false;
@@ -25,6 +27,10 @@ public class DetecHit : MonoBehaviour
     public ParticleSystem Hit;
     public AudioClip MagicHitSound;
     private float directionImpulseGolem;
+    public GameObject paredeBoss;
+    public GameObject paredeBoss1;
+    public ParticleSystem poof;
+    public ParticleSystem poof2;
 
     public bool m_Dead { get; private set; }
 
@@ -36,7 +42,7 @@ public class DetecHit : MonoBehaviour
         Golem_rgb = GetComponent<Rigidbody>();
         ps = GetComponent<PauseSwitch>();
         //Hit = GetComponent<ParticleSystem>();
-        
+
     }
 
     void Update()
@@ -44,7 +50,6 @@ public class DetecHit : MonoBehaviour
         if (m_Dead) return;
 
         DanoFogo();
-
     }
 
     private void SomAtaqueGolem()
@@ -60,23 +65,19 @@ public class DetecHit : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag != opponent && other.gameObject.tag != opponent1)
+        if (other.gameObject.tag != opponent && other.gameObject.tag != opponent1 && other.gameObject.tag != opponent2)
         {
             return;
         }
-
-
-        /*if(gameObject.name == "Golem")
-        {
-            HP.fillAmount -= 0.51f;
-        }*/
+        
 
         if (other.gameObject.CompareTag("Fireball"))
         {
+            Hit.Play();
+            Destroy(other.gameObject);
+            DanoMissil();
             directionImpulseGolem = other.transform.position.x - transform.position.x;
             m_AudioSource.PlayOneShot(MagicHitSound);
-            DanoMissil();
-            Hit.Play();
             if (player.transform.rotation.y > -90)
             {
                 Golem_rgb.AddForce(-directionImpulseGolem * 5, 3, 0);
@@ -85,42 +86,32 @@ public class DetecHit : MonoBehaviour
             {
                 Golem_rgb.AddForce(-directionImpulseGolem * 5, 3, 0);
             }
-           // transform.Translate(-2, 0, 0);
-            Destroy(other.gameObject);
+            // transform.Translate(-2, 0, 0);
+
         }
 
         else if (other.gameObject.name == "Boulder(Clone)")
         {
-            //Debug.Log("fudeu");
             Hit.Play();
             m_AudioSource.PlayOneShot(m_SomHit);
             HP.fillAmount -= 1;
             Invoke("gameOver", 1.5f);
 
         }
-
-        else if (other.gameObject.CompareTag("Fogo"))
-        {
-            PegandoFogo = true;
-        }
-
         else if (other.gameObject.CompareTag("Soco") && !player.StoneState)
         {
             Hit.Play();
             m_AudioSource.PlayOneShot(m_SomHit);
-            transform.Translate(-2, 0, 0);
             DanoSoco();
         }
         else if (other.gameObject.CompareTag("Chute") && !player.StoneState)
         {
             Hit.Play();
             m_AudioSource.PlayOneShot(m_SomHit);
-            transform.Translate(-2, 0, 0);
             DanoChute();
         }
         else if (other.gameObject.CompareTag("DeadLine"))
         {
-            //Debug.Log("fudeu");
             Hit.Play();
             m_AudioSource.PlayOneShot(m_SomHit);
             HP.fillAmount -= 1;
@@ -130,13 +121,20 @@ public class DetecHit : MonoBehaviour
 
     }
 
-    
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("Fogo"))
+        {
+            PegandoFogo = true;
+        }
+    }
+
+
 
     void Morrer()
     {
         if (HP.fillAmount <= 0)
         {
-            Debug.Log("Morreu");
             anim.SetBool("isDead_Golem", true);
             anim.SetBool("isDead_WP", true);
             anim.SetTrigger("DEAD");
@@ -145,6 +143,11 @@ public class DetecHit : MonoBehaviour
             Invoke("gameOver", 3f);
             Destroy(mao);
             Destroy(HP.gameObject, 3);
+            paredeBoss.SetActive(false);
+            paredeBoss1.SetActive(false);
+            poof.Play();
+            poof2.Play();
+            m_AudioSource.PlayOneShot(m_morte_Boss);
             for (int i = 0; i < coliders.Length; i++)
             {
                 coliders[i].enabled = false;
@@ -155,13 +158,13 @@ public class DetecHit : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Fogo"))
-        {
-            PegandoFogo = false;
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.gameObject.CompareTag("Fogo"))
+    //    {
+    //        PegandoFogo = false;
+    //    }
+    //}
 
     private void DanoMissil()
     {
@@ -197,9 +200,10 @@ public class DetecHit : MonoBehaviour
         {
             HP.fillAmount -= 0.1f;
             segundos = 0.2f;
+
             Morrer();
         }
-
+        PegandoFogo = false;
     }
 
     private void DanoSoco()

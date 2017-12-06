@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 54512184208051824}
   - component: {fileID: 114879282543273070}
   - component: {fileID: 82548065397508954}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Golem
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -594,7 +594,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1997226220166946}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -48.8, y: -51.4, z: -3.9999804}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4453153550575242}
@@ -603,7 +603,7 @@ Transform:
   - {fileID: 4073150502103994}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &4189429659736074
 Transform:
   m_ObjectHideFlags: 1
@@ -916,7 +916,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!65 &65095061047990006
 BoxCollider:
@@ -1135,6 +1135,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 00e64cbf78714514aad8869cc80fc834, type: 3}
   - {fileID: 8300000, guid: ea7fa734c18c0464d823c570f1dfe826, type: 3}
   HP: {fileID: 114014861856752158}
+  _MyTimeScale: 40
 --- !u!114 &114879282543273070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1149,15 +1150,20 @@ MonoBehaviour:
   HP: {fileID: 114014861856752158}
   opponent: Fogo
   opponent1: Fireball
+  opponent2: 
   mao: {fileID: 1558748807738446}
   coliders:
   - {fileID: 136602185133170072}
   m_SomAtaque: {fileID: 8300000, guid: 702156428abce8f4f809cde5e5962181, type: 3}
   m_SomHit: {fileID: 8300000, guid: 0abcfd8edcebf37458114e81bd284f58, type: 3}
-  Golem_rgb: {fileID: 0}
-  hoverForce: 0
+  m_morte_Boss: {fileID: 0}
+  Golem_rgb: {fileID: 54512184208051824}
   Hit: {fileID: 198315959207696382}
   MagicHitSound: {fileID: 8300000, guid: 6fbd9fa341a565d49a5d11f8b168416b, type: 3}
+  paredeBoss: {fileID: 0}
+  paredeBoss1: {fileID: 0}
+  poof: {fileID: 0}
+  poof2: {fileID: 0}
 --- !u!135 &135393936736173222
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -1257,7 +1263,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -1303,7 +1309,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 787471738
+  randomSeed: 1825306350
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4322,7 +4328,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -4368,7 +4374,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 103446144
+  randomSeed: 1623950063
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7369,7 +7375,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -7415,7 +7421,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 2061023507
+  randomSeed: 920202467
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10416,7 +10422,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -10462,7 +10468,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -208544895
+  randomSeed: -430710113
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -13463,7 +13469,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -13509,7 +13515,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1451130674
+  randomSeed: 1401189534
   InitialModule:
     serializedVersion: 3
     enabled: 1

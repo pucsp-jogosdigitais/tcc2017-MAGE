@@ -14,14 +14,18 @@ public class InGameMenu : MonoBehaviour
 
     public void Resume()
     {
-        menus[0].SetActive(true);
-        menus[1].SetActive(false);
-        menus[4].SetActive(false);
+        if (menus[1].activeInHierarchy || menus[3].activeInHierarchy)
+        {
+            menus[0].SetActive(true);
+            menus[1].SetActive(false);
+            menus[3].SetActive(false);
+            menus[8].SetActive(false);
 
-        bookAnim.SetTrigger("Descer");
-        Time.timeScale = 1.5f;
-        pausing = false;
-        StartCoroutine(AnimTime("resume"));
+            bookAnim.SetTrigger("Descer");
+            Time.timeScale = 1.5f;
+            pausing = false;
+            StartCoroutine(AnimTime("resume"));
+        }
     }
     public void Pause(bool button)
     {
@@ -44,6 +48,12 @@ public class InGameMenu : MonoBehaviour
             }
         }
     }
+
+    public void JogoSalvo()
+    {
+        menus[8].SetActive(true);
+    }
+
     public void Chekpoint()
     {
         {
@@ -99,7 +109,7 @@ public class InGameMenu : MonoBehaviour
         if (name == "checkpoint")
         {
             //menus[0].SetActive(false);
-            menus[4].SetActive(true);
+            menus[3].SetActive(true);
             Time.timeScale = 0;
         }
         else if(name == "pause")

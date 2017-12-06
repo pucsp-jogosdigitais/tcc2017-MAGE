@@ -3,7 +3,7 @@ using System.Collections;
 
 public class WeaponController : MonoBehaviour
 {
-
+    //Este script descreve o funcionamento do míssil mágico
     private float beginPos;
     private float range = 15f;
 

@@ -12,18 +12,21 @@ public class PegarCajado : MonoBehaviour
     public AudioSource pickupSound;
     public ParticleSystem pickupEffect;
     public GameObject press_e;
+	public Transform objetoRefInstanciaParticula;
 
     void Start()
     {
-        if (DadosPersistentes.cajado == 1)
+        if (DadosPersistentes.cajado == 1) //Verifica se o jogador já tinha o cajado quando carregou o jogo
         {
-            CajadoProtagonista.SetActive(true);
-            CharacterM.SetAtivos(0, "StoneState");
+            CajadoProtagonista.SetActive(true); //Carrega o cajado na mão do jogador
+            //Carrega as habilidades (Apenas para a apresentação)
+            CharacterM.SetAtivos(0, "StoneState"); 
             CharacterM.SetAtivos(1, "MagicMissle");
             CharacterM.SetAtivos(2, "FlameThrower");
             CharacterM.SetAtivos(3, "Clone");
-            CharacterM.jumpLimit = 2;
-            Destroy(gameObject);
+
+            CharacterM.jumpLimit = 2; //Aumenta o limite de pulo do jogador
+            Destroy(gameObject); //Destroe o cajado que o jogador iria coletar
         }
         InputM = GameObject.Find("Manager").GetComponent<InputManager>();
         pickupSound = GameObject.Find("Protagonista/Pickup_Cajado").GetComponent<AudioSource>();
@@ -31,7 +34,7 @@ public class PegarCajado : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -57,18 +60,20 @@ public class PegarCajado : MonoBehaviour
             if (Input.GetButtonDown("Get"))
             {
 
-                CajadoProtagonista.SetActive(true);
+                CajadoProtagonista.SetActive(true); //Carrega o cajado na mão do jogador
+                //Carrega as habilidades (Apenas para a apresentação)
                 CharacterM.SetAtivos(0, "StoneState");
                 CharacterM.SetAtivos(1, "MagicMissle");
                 CharacterM.SetAtivos(2, "FlameThrower");
                 CharacterM.SetAtivos(3, "Clone");
-                DadosPersistentes.cajado = 1;
-                CharacterM.jumpLimit = 2;
 
-                Instantiate(pickupEffect, transform.position, transform.rotation, Mago.transform);
+                DadosPersistentes.cajado = 1; //Grava na memrória que o jogador tem o cajado 
+                CharacterM.jumpLimit = 2; //Aumenta o limite de pulo do jogador
+
+                Instantiate(pickupEffect, objetoRefInstanciaParticula.position, objetoRefInstanciaParticula.rotation, Mago.transform); //Emite uma particula
 
                 pickupEffect.Play();
-                Destroy(gameObject);
+                Destroy(gameObject); //Destroe o cajado que o jogador iria coletar
                 pickupSound.Play();
             }
         }

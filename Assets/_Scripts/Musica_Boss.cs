@@ -8,11 +8,20 @@ public class Musica_Boss : MonoBehaviour {
     public GameObject musicaNormal;
     public GameObject cameraBoss;
     public GameObject cameraPlayer;
+    public GameObject paredeBoss;
+    public GameObject paredeBoss1;
+    public GameObject BOSS;
+    public ParticleSystem poof;
+    public ParticleSystem poof2;
+
+    [SerializeField]
+    public Canvas UI;
 
     // Use this for initialization
     void Start () {
         cameraBoss.SetActive(false);
         cameraPlayer.SetActive(true);
+        BOSS.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -24,11 +33,16 @@ public class Musica_Boss : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            BOSS.SetActive(true);
             musicaNormal.SetActive(false);
             musicaBoss.SetActive(true);
-
+            paredeBoss.SetActive(true);
+            paredeBoss1.SetActive(true);
             cameraBoss.SetActive(true);
             cameraPlayer.SetActive(false);
+            poof.Play();
+            poof2.Play();
+            UI.worldCamera = cameraBoss.GetComponent<Camera>();
         }
         
     }
@@ -42,6 +56,8 @@ public class Musica_Boss : MonoBehaviour {
 
             cameraBoss.SetActive(false);
             cameraPlayer.SetActive(true);
+
+            UI.worldCamera = cameraPlayer.GetComponent<Camera>();
         }
 
     }

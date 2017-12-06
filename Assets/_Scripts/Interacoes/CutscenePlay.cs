@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CutscenePlay : MonoBehaviour
 {
-
+    //Script responsável por reproduzir cutscenes
     public Animator anim;
     public AudioSource cutscene_sound;
     public CharacterManager player;

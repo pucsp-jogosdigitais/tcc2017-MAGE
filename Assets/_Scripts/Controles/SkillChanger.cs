@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SkillChanger : MonoBehaviour
 {
+    //Este script não foi implementado mas faz parte da mecânica da escolha de habilidades
 	public CharacterManager player;
 	public List<Image> lstSprites;
 	private Image selectSprite;

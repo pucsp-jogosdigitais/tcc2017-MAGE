@@ -18,6 +18,7 @@ TagManager:
   - Boss
   - CameraBoss
   - Chute
+  - Creditos
   layers:
   - Default
   - TransparentFX

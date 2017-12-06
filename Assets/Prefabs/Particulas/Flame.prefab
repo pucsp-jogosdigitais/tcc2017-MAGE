@@ -120,7 +120,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1295067333014656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.742922, y: -2.7599926, z: -10.687129}
+  m_LocalPosition: {x: -28.086014, y: 1.11, z: -2.6646652}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4822146417469776}
@@ -221,8 +221,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8.26, y: 1, z: 7.88}
-  m_Center: {x: 3.302751, y: 0, z: 0}
+  m_Size: {x: 7.8284445, y: 1, z: 7.88}
+  m_Center: {x: 3.9942222, y: 0, z: 0}
 --- !u!108 &108756701611444648
 Light:
   m_ObjectHideFlags: 1
@@ -327,7 +327,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -215309440
+  randomSeed: 1199477816
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -884,7 +884,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 25
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3393,7 +3393,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 351567076
+  randomSeed: 1929025029
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -6453,7 +6453,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1462328629
+  randomSeed: 1056312615
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -9507,7 +9507,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1159415779
+  randomSeed: 266566505
   InitialModule:
     serializedVersion: 3
     enabled: 1
