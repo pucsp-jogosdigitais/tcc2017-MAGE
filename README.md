@@ -22,21 +22,21 @@ Para compilar o jogo é necessário as seguintes ferramentas :
 
 Intruções :
 *
-*1-Abrir o projeto pelo Unity.
-*2-Quando o projeto estiver aberto, entre em File e depois em Build Settings.
-*3-Ao abrir a janela de Build Settings, clique em Build ou Build and Run.
-*4-Selecione o local em que deseja compilar o jogo (de preferência crie uma pasta saparada para isso).
-*5-Quando o projeto terminar de compilar, clique no arquivo executavel na pasta em que você compilou o jogo.
-*6-Divirta-se !
+* 1-Abrir o projeto pelo Unity.
+* 2-Quando o projeto estiver aberto, entre em File e depois em Build Settings.
+* 3-Ao abrir a janela de Build Settings, clique em Build ou Build and Run.
+* 4-Selecione o local em que deseja compilar o jogo (de preferência crie uma pasta saparada para isso).
+* 5-Quando o projeto terminar de compilar, clique no arquivo executavel na pasta em que você compilou o jogo.
+* 6-Divirta-se !
 
 Alternativamente
 
-*-Baixe o arquivo zipado na pagina de releases 
+* Baixe o arquivo zipado na pagina de releases 
 
 ou
 
-*-Baixe o instalador da versão do sistema operacional que você esteja usando
-*-Execute o Instalador e escolha onde você quer instalar o jogo
+* Baixe o instalador da versão do sistema operacional que você esteja usando
+* Execute o Instalador e escolha onde você quer instalar o jogo
 
 
 Descriver aqui quais são as ferramentas necessárias para alterar e compilar o jogo a partir do código fonte.
