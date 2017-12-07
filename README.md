@@ -32,13 +32,10 @@ Intruções :
 Alternativamente
 
 * Baixe o arquivo zipado na pagina de releases 
+* Extraia ele utilizando o winrar ou um programa alternativo
+
 
 ou
 
 * Baixe o instalador da versão do sistema operacional que você esteja usando
 * Execute o Instalador e escolha onde você quer instalar o jogo
-
-
-Descriver aqui quais são as ferramentas necessárias para alterar e compilar o jogo a partir do código fonte.
-
-**OBSERVAÇÃO: NO REPOSITÓRIO DEVE EXISTIR TODOS OS ARQUIVOS DESENVOLVIDOS PARA O PROJETO, INCLUINDO ARTES, MODELOS 3D ORIGINAIS, ETC..**
