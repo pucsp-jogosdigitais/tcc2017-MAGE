@@ -2,6 +2,11 @@
 
 MAGE é um jogo que se baseia em um platformer 2.5D focado na navegação e interação com o cenário, resolução de puzzles e combate simples. 
 
+
+# Itch.io
+
+https://red-elephant.itch.io/mage
+
 # Integrantes do projeto:
 
 * Daniel Gonçalves de Sene RA00167720
@@ -39,3 +44,5 @@ ou
 
 * Baixe o instalador da versão do sistema operacional que você esteja usando
 * Execute o Instalador e escolha onde você quer instalar o jogo
+
+
